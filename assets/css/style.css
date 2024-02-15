@@ -62,7 +62,9 @@ body {
 
 /* styles title, buttons,divs and animations  */
 #dialog {
-   margin-left: 12em;
+   justify-content: center;
+   margin-left: 60px;
+   margin-right: 60px;
 }
 
 * {
@@ -460,6 +462,7 @@ transition: transform 0.2s ease-in;
         width:10rem;
     }
     #dialog{
+        justify-content: center;
         margin-inline:50px;
         width:20rem;
     }
