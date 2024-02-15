@@ -37,6 +37,7 @@ function fetchThemePark() {
         loadData(parksList, parkListElement);
 
       }
+     
     },
     error: function (xhr, status, error) {
       console.error("Error fetching data: ", error);
@@ -101,6 +102,7 @@ $('#theme-park-list').on('click', 'li', function () {
 
   // triggers card animation for wait times and weather
   animateWindows();
+  $('#recent-search').css('visibility', 'visible');
 
 });
 
@@ -377,6 +379,7 @@ $('#clear-btn').on('click', function () {
   $('#recent').empty();
   localStorage.removeItem('userParks')
   userParks = [];
+  $('#recent-search').css('visibility', 'hidden');
 });
 
 
@@ -411,6 +414,7 @@ $("#input-box").keyup(function () {
 // modal is shown when About button is clicked
 $("#btn").click(function () {
   $("#dialog").slideDown().show();
+  
   hideWindows()
 })
 // modal is styled

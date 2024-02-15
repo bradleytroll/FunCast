@@ -462,7 +462,7 @@ transition: transform 0.2s ease-in;
         width:10rem;
     }
     #dialog{
-        justify-content: center;
+        justify-content: flex;
         margin-inline:50px;
         width:20rem;
     }
@@ -472,8 +472,25 @@ transition: transform 0.2s ease-in;
     }
 }
 
+#recent-search {
+    visibility: hidden;
+}
+
+#dialog{
+    
+    align-items: center;
+    justify-content: center;  
+}
+
+#logo-img {
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
 
 
 
-
+#ptag {
+    margin-right: 20px
+}
 
