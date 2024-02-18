@@ -4,6 +4,10 @@ Funcast is a web application designed to enhance the theme park experience by pr
 
 # Credit: Team Strings
 
+## Bradley Troll - Individual Changes
+
+Based on some feedback from our presentation and my own preferences, I've made a few changes to the code. I've cleaned up some language for readability sake. I've removed some graphic elements I found distracting. Additionally, I updated the code so that the recently-searched theme parks only appear after a user has searched for a park. I've updated the deployment link at the end of this readme; otherwise, the readme below is identical to the group presentation. 
+
 ## Team Members
 -**David Wright**
 
@@ -98,4 +102,4 @@ Contributions to Funcast are welcome! If you have suggestions or improvements, p
 
 ## Deployed Application Link
 
-[Click here to try it out!](https://mbarrie1979.github.io/Theme-Parks-Waiting-Times-and-Weather-NEW/)
+[Click here to try it out!](https://bradleytroll.github.io/FunCast/)
