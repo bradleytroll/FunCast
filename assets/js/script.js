@@ -102,6 +102,8 @@ $('#theme-park-list').on('click', 'li', function () {
 
   // triggers card animation for wait times and weather
   animateWindows();
+
+
   $('#recent-search').css('visibility', 'visible');
 
 });
